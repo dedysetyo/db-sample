@@ -1,0 +1,6 @@
+type ListSettings @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  list_name: String!
+  description: String
+  moderator_email: String!
+}
